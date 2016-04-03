@@ -4,9 +4,10 @@
   "description": "Decorator for debounce class methods",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test/*.test.js --compilers js:babel-core/register",
-    "lint": "eslint .",
-    "build": "babel lib --out-dir build"
+    "test": "npm run lint && npm run mocha",
+    "mocha": "mocha ./test/*.test.js --compilers js:babel-core/register",
+    "lint": "eslint ./lib",
+    "build": "babel lib --out-dir src"
   },
   "devDependencies": {
     "babel": "^5.8.23",
@@ -15,7 +16,8 @@
     "eslint-config-airbnb": "^6.2.0",
     "eslint-plugin-react": "^4.2.3",
     "expect": "^1.16.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "simple-mock": "^0.7.0"
   },
   "repository": {
     "type": "git",
