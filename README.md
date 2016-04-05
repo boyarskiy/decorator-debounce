@@ -1,2 +1,28 @@
-# decorator-debounce
-ES2015 decorator for debounce class methods and functions.
+# Decorator for debounce
+
+> Decorator for debounce class methods
+
+
+## Install
+
+`npm install --save-dev decorator-debounce`
+
+
+## Usage
+
+```js
+import debounce from 'decorator-debounce';
+
+class Component {
+  counter = 0;
+
+  @debounce(250)
+  onClick (e) {
+    // ...
+  }
+}
+```
+
+## License
+
+MIT

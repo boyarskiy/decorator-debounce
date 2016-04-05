@@ -1,13 +1,14 @@
 {
   "name": "decorator-debounce",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Decorator for debounce class methods",
   "main": "index.js",
   "scripts": {
     "test": "npm run lint && npm run mocha",
     "mocha": "mocha ./test/*.test.js --compilers js:babel-core/register",
     "lint": "eslint ./lib",
-    "build": "babel lib --out-dir src"
+    "build": "babel lib --out-dir src",
+    "prepublish": "npm run test && npm run build"
   },
   "devDependencies": {
     "babel": "^5.8.23",
