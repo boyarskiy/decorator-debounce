@@ -16,8 +16,7 @@
     "eslint-config-airbnb": "^6.2.0",
     "eslint-plugin-react": "^4.2.3",
     "expect": "^1.16.0",
-    "mocha": "^2.4.5",
-    "simple-mock": "^0.7.0"
+    "mocha": "^2.4.5"
   },
   "repository": {
     "type": "git",
