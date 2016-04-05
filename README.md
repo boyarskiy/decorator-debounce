@@ -1,4 +1,4 @@
-# Decorator for debounce
+# Decorator for debounce [![Build Status](https://travis-ci.org/boyarskiy/decorator-debounce.svg?branch=master)](https://travis-ci.org/boyarskiy/decorator-debounce)
 
 > Decorator for debounce class methods
 
